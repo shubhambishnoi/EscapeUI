@@ -1,0 +1,39 @@
+.avatar{
+    margin:2rem;
+}
+.avatar > img{
+    border-radius:50%;
+}
+
+.avatar-lg > img{
+    width:6rem;   
+}
+
+.avatar-md > img{
+    width:4rem;
+}
+
+.avatar-sm > img{
+    width:3rem;
+}
+
+.avatar-status{
+    border-radius: 50%;
+    padding:8px;
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+
+.status-online {
+    background-color: #32b643;
+}
+
+.status-offline {
+    background-color: #bcc3ce;
+}
+
+.status-dnd {
+    background-color: #ff0000;
+}
+    
