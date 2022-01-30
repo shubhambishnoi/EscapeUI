@@ -36,4 +36,11 @@
 .status-dnd {
     background-color: #ff0000;
 }
-    
+
+.avatar-md > .avatar-status {
+    padding:6px;
+}
+
+.avatar-sm > .avatar-status{
+    padding:4px;
+}
