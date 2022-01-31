@@ -1,14 +1,12 @@
-*{
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
-}
-
 .no-style-a{
     text-decoration: none;
-    font-size:2rem;
+    font-size:1rem;
+    color:var(--black);
 }
 
+.no-style-list{
+    list-style: none;
+}
 .flex{
     display: flex;
 }
@@ -27,3 +25,4 @@
 .w-50{
     width:50rem;
 }
+
