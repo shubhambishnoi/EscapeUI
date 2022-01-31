@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.no-style-a{
+    text-decoration: none;
+    font-size:2rem;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-y-ctr{
+    align-items: center;
+}
+
+.flex-x-ctr{
+    justify-content: center;
+}
+
+.pos-rel{
+    position: relative;
+}
+.w-50{
+    width:50rem;
+}
