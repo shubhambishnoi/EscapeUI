@@ -4,6 +4,10 @@
     --primary-color:#6610f2;
     --secondary-color:#f8f9fa;
     --black:#070808;
+    --blue:#12BCD0;
+    --red:#D03712;
+    --green:#5AD012;
+    --yellow:#D0C712;
 }
 
 *{
@@ -91,4 +95,9 @@
 
 .h2-instl-pg{
     color:var(--primary-color);
+}
+
+.txt-primary{
+    color: var(--primary-color);
+    font-weight: bold;
 }

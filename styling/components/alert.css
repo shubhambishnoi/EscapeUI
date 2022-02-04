@@ -1,0 +1,32 @@
+.text-alerts{
+    flex-direction: column;
+    gap:2rem;
+}
+
+.alert-primary{
+    border:1rem solid var(--blue);
+    background-color: var(--blue);
+    width:20rem;
+    text-align: center;
+}
+
+.alert-success{
+    border:1rem solid var(--green);
+    background-color: var(--green);
+    width:20rem;
+    text-align: center;
+}
+
+.alert-danger{
+    border:1rem solid var(--red);
+    background-color:var(--red);
+    width:20rem;
+    text-align: center;
+}
+
+.alert-warning{
+    border:1rem solid var(--yellow);
+    background-color: var(--yellow);
+    width:20rem;
+    text-align: center;
+}
