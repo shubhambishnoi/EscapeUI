@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+:root{
+    --primary-color:#6610f2;
+    --secondary-color:#f8f9fa;
+    --black:#070808;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/******       header component      *****/
+.header{
+    background-color: var(--primary-color);
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:1;
+}
+
+.brand-link{
+    gap:8px;
+    padding:1rem;
+}
+
+.brand-logo{
+    background-color: var(--secondary-color) ;
+    border-radius: 25%;
+    padding:1rem;
+    transform: rotate(45deg);
+}
+
+.brand-name{
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+}
+
+.profile-logos{
+    margin-left:auto;
+    margin-right:2rem;
+    gap:1rem;
+}
+/*********** container ****************/
+
+.main-container{
+    margin:6rem 1rem 1rem 1rem;
+    align-items: flex-start;
+    gap:2rem;
+}
+
+
+/************ sidebar navigation **********/
+
+.sidebar-main{
+    flex-direction: column;
+    margin-left:1rem;
+    width:15rem;
+    padding:1rem;
+    gap:6px;
+    position:fixed;
+}
+
+.install-link{
+    padding:8px;
+}
+
+.component-sidelist{
+    padding:4px;
+}
+
+.component-link{
+    padding:8px;
+}
+
+
+/********** main content*********/
+
+.main-content{
+    flex-direction: column;
+    flex-grow:1;
+    margin-right:5rem;
+    padding:1rem;
+    gap:1rem;
+    margin-left:15rem;
+    flex-wrap:wrap;
+}
+
+.h2-instl-pg{
+    color:var(--primary-color);
+}
