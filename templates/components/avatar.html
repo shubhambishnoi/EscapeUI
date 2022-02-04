@@ -6,42 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../styling/components/avatar.css">
     <link rel="stylesheet" href="../../styling/utilities.css">
+    <link rel="stylesheet" href="../../styling/main.css">
     <title>Avatar</title>
 </head>
 <body>
-    <main>
-        <h2>Round Avatars</h2>
-        <div class="flex flex-y-ctr">
-            <figure class="avatar avatar-lg">
-                <img src="../../abstract/images/avatar-1.svg" alt="avatar">
-            </figure>
+    <header class="header flex flex-y-ctr">
+        <a href="../../index.html" class="brand-link flex flex-y-center no-style-a">
+            <span class="brand-logo"></span>
+            <span class="brand-name">EscapeUI</span>
+        </a>
 
-            <figure class="avatar avatar-md">
-                <img src="../../abstract/images/avatar-1.svg" alt="avatar">
-            </figure>
-
-            <figure class="avatar avatar-sm">
-                <img src="../../abstract/images/avatar-1.svg" alt="avatar">
-            </figure>
+        <div class="profile-logos flex flex-y-center">
+            <a href="https://github.com/shubhambishnoi" target="_blank"><img src="../../abstract/logos/github.svg" alt="github" width="20"></a>
+            <a href="https://twitter.com/shubham2220" target="_blank"><img src="../../abstract/logos/twitter.svg" alt="twitter" width="20"></a>
+            <a href="https://www.linkedin.com/in/bishnoishubham/" target="_blank"><img src="../../abstract/logos/linkedin.svg" alt="linkedin" width="20"></a>
         </div>
+    </header>
 
-        <h2>Avatars with status</h2>
-        <div class="flex flex-y-ctr">
-            <figure class="avatar avatar-lg pos-rel">
-                <img src="../../abstract/images/avatar-1.svg" alt="avatar">
-                <div class="avatar-status status-online"></div>
-            </figure>
+    <div class="main-container flex">
+        <nav class="sidebar-main flex">
+            <h3>Manual</h3>
+            <a href="../installation.html" class="install-link no-style-a">Installation</a>
+            <h3>Components</h3>
+            <ul class="component-sidelist no-style-list">
+                <li class="component-link"><a class="no-style-a" href="avatar.html">Avatar</a></li>
+                <li class="component-link"><a class="no-style-a">Alert</a></li>
+                <li class="component-link"><a class="no-style-a">Badge</a></li>
+                <li class="component-link"><a class="no-style-a">Button</a></li>
+                <li class="component-link"><a class="no-style-a">Card</a></li>
+                <li class="component-link"><a class="no-style-a">Image</a></li>
+                <li class="component-link"><a class="no-style-a">Input</a></li>
+                <li class="component-link"><a class="no-style-a">Snackbar</a></li>
+                <li class="component-link"><a class="no-style-a">Header</a></li>
+                <li class="component-link"><a class="no-style-a">Dialogs</a></li>
+            </ul>
+        </nav>
 
-            <figure class="avatar avatar-md pos-rel">
-                <img src="../../abstract/images/avatar-1.svg" alt="avatar">
-                <div class="avatar-status status-offline"></div>
-            </figure>
+        <main class="main-content flex">
+            <h2>Round Avatars</h2>
+            <div class="flex flex-y-ctr">
+                <figure class="avatar avatar-lg">
+                    <img src="../../abstract/images/avatar-1.svg" alt="avatar">
+                </figure>
+    
+                <figure class="avatar avatar-md">
+                    <img src="../../abstract/images/avatar-1.svg" alt="avatar">
+                </figure>
+    
+                <figure class="avatar avatar-sm">
+                    <img src="../../abstract/images/avatar-1.svg" alt="avatar">
+                </figure>
+            </div>
+            <p>These avatars are of 3 different sizes i.e large avatar(avatar-lg), medium avatar(avatar-md),<p>and small avatar(avatar-sm).</p></p>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cfigure%2520class%253D%2522avatar%2520avatar-lg%2522%253E%250A%2509%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Ffigure%253E%250A%2520%2520%2520%2520%250A%253Cfigure%2520class%253D%2522avatar%2520avatar-md%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Ffigure%253E%250A%250A%253Cfigure%2520class%253D%2522avatar%2520avatar-sm%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Ffigure%253E"
+                style="width: 480px; height: 450px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+    
+            <h2>Avatars with status</h2>
+            <div class="flex flex-y-ctr">
+                <figure class="avatar avatar-lg pos-rel">
+                    <img src="../../abstract/images/avatar-1.svg" alt="avatar">
+                    <div class="avatar-status status-online"></div>
+                </figure>
+    
+                <figure class="avatar avatar-md pos-rel">
+                    <img src="../../abstract/images/avatar-1.svg" alt="avatar">
+                    <div class="avatar-status status-offline"></div>
+                </figure>
+    
+                <figure class="avatar avatar-sm pos-rel">
+                    <img src="../../abstract/images/avatar-1.svg" alt="avatar">
+                    <div class="avatar-status status-dnd"></div>
+                </figure>
+            </div>
 
-            <figure class="avatar avatar-sm pos-rel">
-                <img src="../../abstract/images/avatar-1.svg" alt="avatar">
-                <div class="avatar-status status-dnd"></div>
-            </figure>
-        </div>
-    </main>
+            <p>These avatars are also of 3 different sizes i.e large avatar(avatar-lg), medium avatar(avatar-md),<p>and small avatar(avatar-sm) and they also have status icon present i.e online, offline and dnd.</p></p>
+            <iframe
+            
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cfigure%2520class%253D%2522avatar%2520avatar-lg%2520pos-rel%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-status%2520status-online%2522%253E%253C%252Fdiv%253E%250A%253C%252Ffigure%253E%250A%250A%253Cfigure%2520class%253D%2522avatar%2520avatar-md%2520pos-rel%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-status%2520status-offline%2522%253E%253C%252Fdiv%253E%250A%253C%252Ffigure%253E%250A%250A%253Cfigure%2520class%253D%2522avatar%2520avatar-sm%2520pos-rel%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-status%2520status-dnd%2522%253E%253C%252Fdiv%253E%250A%253C%252Ffigure%253E"
+                style="width: 600px; height: 447px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+          
+            </iframe>
+        </main>
+    </div>
 </body>
 </html>
