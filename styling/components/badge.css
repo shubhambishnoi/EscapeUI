@@ -15,7 +15,8 @@
     top:-1rem;
     right:-8px;
     color:white;
-    padding:4px; 
+    font-weight: bold;
+    padding:4px;
 }
 
 .text-badge.b-r{
