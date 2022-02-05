@@ -1,0 +1,48 @@
+.text-badge{
+    border:5px solid var(--primary-color);
+    width:max-content;
+    position:relative;
+}
+
+.text-badge .text{
+    padding:1rem;
+}
+
+.text-badge .badge{
+    position: absolute;
+    background-color: var(--dark-red);
+    border-radius:50%;
+    top:-1rem;
+    right:-8px;
+    color:white;
+    font-weight: bold;
+    padding:4px;
+}
+
+.text-badge.b-r{
+    border-radius: 1rem;
+    border-color: var(--yellow);
+}
+
+.mail-badge{
+    position: relative;
+}
+
+.badge{
+    position: absolute;
+    background-color: var(--dark-red);
+    border-radius:50%;
+    top:-8px;
+    right:-6px;
+    color:white;
+    padding:3px; 
+}
+
+.icon-badges{
+    gap:2rem;
+}
+
+.avatar-badge{
+    position: relative;
+}
+
