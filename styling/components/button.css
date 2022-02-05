@@ -33,3 +33,7 @@
 .btn-link:hover{
     background-color:var(--blue);
 }
+
+.icon-btns{
+    gap:2rem;
+}
