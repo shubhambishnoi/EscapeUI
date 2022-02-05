@@ -28,7 +28,7 @@
     position: relative;
 }
 
-.mail-badge .badge{
+.badge{
     position: absolute;
     background-color: var(--dark-red);
     border-radius:50%;
@@ -41,3 +41,8 @@
 .icon-badges{
     gap:2rem;
 }
+
+.avatar-badge{
+    position: relative;
+}
+
