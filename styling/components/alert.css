@@ -8,6 +8,7 @@
     background-color: var(--blue);
     width:20rem;
     text-align: center;
+    font-weight: bold;
 }
 
 .alert-success{
@@ -15,6 +16,7 @@
     background-color: var(--green);
     width:20rem;
     text-align: center;
+    font-weight: bold;
 }
 
 .alert-danger{
@@ -22,6 +24,7 @@
     background-color:var(--red);
     width:20rem;
     text-align: center;
+    font-weight: bold;
 }
 
 .alert-warning{
@@ -29,4 +32,5 @@
     background-color: var(--yellow);
     width:20rem;
     text-align: center;
+    font-weight: bold;
 }
