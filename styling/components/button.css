@@ -1,0 +1,40 @@
+.simple-btns{
+    gap:1rem;
+}
+
+.btn{
+    border-radius: 8px;
+    padding:1rem;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-pm{
+    background-color: var(--primary-color);
+}
+
+.btn-dg{
+    background-color: var(--red);
+}
+
+.btn-wn{
+    background-color: var(--yellow);
+}
+
+.btn-sc{
+    background-color: var(--green);
+}
+
+.btn-link{
+    color:var(--primary-color);
+    cursor: pointer;
+}
+
+.btn-link:hover{
+    background-color:var(--blue);
+}
+
+.icon-btns{
+    gap:2rem;
+}
