@@ -1,0 +1,97 @@
+.card-badges{
+    gap:4rem;
+}
+.card-bd{
+    border:2px solid var(--blue);
+    width:max-content;
+    position:relative;
+}
+
+.badge{
+    position:absolute;
+    top:1rem;
+    right:0;
+    background-color:var(--golden);
+    padding:6px;
+    box-shadow: 4px 1px;
+    font-weight: bold;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding:4px;
+    text-align: center;
+}
+
+.card-bd-1 .badge{
+    background-color: var(--green);
+}
+
+.card-im{
+    display: block;
+}
+
+.card-text{
+    width:25rem;
+    border:2px solid var(--blue);
+    padding:1rem;
+    position: relative;
+}
+
+.card-text .close{
+    position:absolute;
+    right:1rem;
+    font-size:1.5rem;
+}
+
+.card-dismiss .close{
+    position:absolute;
+    top:0;
+    right:6px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.overlay-txt{
+    position: absolute;
+    top:0;
+    color:var(--red);
+    font-size:2rem;
+    font-weight: bold;
+}
+
+.card-v-h{
+    gap:4rem;
+}
+.card-v{
+    flex-direction: column;
+    border:2px solid var(--blue);
+}
+
+.price{
+    font-size:20px;
+    color:var(--dark-green);
+}
+
+.cart-btn{
+    border:1px solid var(--gray);
+    background-color: var(--gray);
+    margin:0 1rem 1rem;
+    color:var(--secondary-color);
+    cursor:pointer;
+}
+
+.card-h{
+    border:2px solid var(--blue);
+}
+
+.h-item{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-shadow{
+    box-shadow: 8px 8px 2px 0 var(--gray);
+}
