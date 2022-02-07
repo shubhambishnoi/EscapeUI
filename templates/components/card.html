@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="../../styling/main.css">
     <title>Card</title>
 </head>
+
 <body>
     <header class="header flex flex-y-ctr">
         <a href="../../index.html" class="brand-link flex flex-y-center no-style-a">
@@ -17,9 +19,12 @@
         </a>
 
         <div class="profile-logos flex flex-y-center">
-            <a href="https://github.com/shubhambishnoi" target="_blank"><img src="../../abstract/logos/github.svg" alt="github" width="20"></a>
-            <a href="https://twitter.com/shubham2220" target="_blank"><img src="../../abstract/logos/twitter.svg" alt="twitter" width="20"></a>
-            <a href="https://www.linkedin.com/in/bishnoishubham/" target="_blank"><img src="../../abstract/logos/linkedin.svg" alt="linkedin" width="20"></a>
+            <a href="https://github.com/shubhambishnoi" target="_blank"><img src="../../abstract/logos/github.svg"
+                    alt="github" width="20"></a>
+            <a href="https://twitter.com/shubham2220" target="_blank"><img src="../../abstract/logos/twitter.svg"
+                    alt="twitter" width="20"></a>
+            <a href="https://www.linkedin.com/in/bishnoishubham/" target="_blank"><img
+                    src="../../abstract/logos/linkedin.svg" alt="linkedin" width="20"></a>
         </div>
     </header>
 
@@ -43,7 +48,118 @@
         </nav>
 
         <main class="main-content flex">
+
+            <h2>Cards with Badges</h2><br>
+
+            <div class="card-badges flex flex-y-ctr">
+                <div class="card-bd-1 card-bd">
+                    <img class="card-im" src="../../abstract/images/black-tshirt.jpg" alt="image" width="250"
+                        height="300">
+                    <hr>
+                    <div class="card-title">T-Shirt</div>
+                    <span class="badge">50% OFF</span>
+                </div>
+
+                <div class="card-bd-2 card-bd">
+                    <img class="card-im" src="../../abstract/images/spects.jpg" alt="image" width="250" height="300">
+                    <div class="badge">LIMITED OFFER</div>
+                    <div class="card-title">Spectacle</div>
+                </div>
+            </div><br>
+
+            <p>These are cards with badges available on top right (<span class="txt-primary">card-badges</span>).</p>
+            <br>
+
+            <iframe src="https://carbon.now.sh/embed/J0AgLnJIbqSPS7sI8oC1"
+                style="width: 766px; height: 465px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <h2>Card with dismiss</h2><br>
+            <div class="card-bd card-dismiss">
+                <img class="card-im" src="../../abstract/images/black-tshirt.jpg" alt="image" width="250" height="300"><hr>
+                <div class="close">X</div>
+                <div class="card-title">Title</div>
+            </div><br>
+
+            <p>This is a card with dismiss button on top right corner (<span class="txt-primary">card-dismiss</span>).
+            </p><br>
+
+            <iframe src="https://carbon.now.sh/embed/BQjtMGZctV49B0YaHvji"
+                style="width: 732px; height: 279px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <h2>Card with text overlay</h2><br>
+            <div class="card-bd">
+                <img class="card-im" src="../../abstract/images/spects.jpg" alt="image" width="250" height="300">
+                <div class="overlay-txt">THIS IS OVERLAY TEXT</div>
+                <div class="card-title">Title</div>
+            </div><br>
+
+            <p>This is a card with text on image i.e text overlay.</p><br>
+
+            <iframe src="https://carbon.now.sh/embed/BAKlioRnGIEqOAqaAYVJ"
+                style="width: 732px; height: 279px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <h2>Text only card</h2><br>
+            <div class="card-text">
+                <span class="card-title">Title</span><span class="close">X</span>
+                <hr>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus saepe dolor minus molestiae
+                    consectetur beatae dolores esse, eos culpa perspiciatis temporibus blanditiis. Voluptatibus optio
+                    quaerat maxime dolore soluta accusantium at.</p>
+            </div><br>
+
+            <p>This is a text only card (<span class="txt-primary">card-text</span>).</p><br>
+
+            <iframe src="https://carbon.now.sh/embed/y2JpWS4ECBVZR3DXifzw"
+                style="width: 732px; height: 279px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <h2>Vertical/Horizontal Cards</h2><br>
+            <div class="card-v-h flex flex-y-ctr">
+                <div class="card-v flex">
+                    <img class="card-im" src="../../abstract/images/black-tshirt.jpg" alt="image" width="250"
+                        height="300">
+                    <hr>
+                    <div class="card-title">Men's T Shirt</div>
+                    <div class="card-title price">$25</div>
+                    <div class="cart-btn card-title">Add to Cart</div>
+                </div>
+
+                <div class="card-h flex">
+                    <img class="card-im" src="../../abstract/images/black-tshirt.jpg" alt="image" width="250"
+                        height="300">
+                    <hr>
+                    <div class="h-item flex">
+                        <div class="card-title">Men's T Shirt</div>
+                        <div class="card-title price">$25</div>
+                        <div class="cart-btn card-title">Add to Cart</div>
+                    </div>
+                </div>
+            </div><br>
+
+            <p>These are vertical (<span class="txt-primary">card-v</span>) and horizontal (<span
+                    class="txt-primary">card-h</span>) cards with title, price and add to cart button.</p><br>
+
+            <iframe src="https://carbon.now.sh/embed/oFmYfp1u1sodOFkX3Co1"
+                style="width: 673px; height: 577px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <h2>Card with shadow</h2><br>
+            <div class="card-shadow card-bd">
+                <img class="card-im" src="../../abstract/images/i-1.jpg" alt="image" width="250" height="300">
+                <div class="card-title">Title</div>
+            </div><br>
+
+            <p>This is card with shadow effect (<span class="txt-primary">card-shadow</span>).</p><br>
+            <iframe src="https://carbon.now.sh/embed/CDHQK6Er0szmGMmXQXGK"
+                style="width: 842px; height: 260px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
         </main>
     </div>
 </body>
+
 </html>
