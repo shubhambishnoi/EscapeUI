@@ -1,0 +1,12 @@
+.res-img{
+    width:100%;
+    max-width: 40rem;
+    height: auto;
+}
+
+.round-img{
+    width: 100%;
+    max-width: 20rem;
+    border-radius:50%;
+    height: auto;
+}
