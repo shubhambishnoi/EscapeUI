@@ -1,0 +1,31 @@
+.input-types,.input-validation{
+    gap:2rem;
+}
+
+.input-txt,.input-num,.input-pwd{
+    font-size:1rem;
+    font-weight: bold;
+    padding:1rem;
+    border:1px solid var(--black);
+}
+
+.input-wn{
+    font-size:1rem;
+    padding:1rem;
+    border:2px solid var(--yellow);
+    font-weight: bold;
+}
+
+.input-dg{
+    font-size: 1rem;
+    padding:1rem;
+    border:2px solid var(--red);
+    font-weight: bold;
+}
+
+.input-sc{
+    font-size: 1rem;
+    padding:1rem;
+    border:2px solid var(--dark-green);
+    font-weight: bold;
+}
