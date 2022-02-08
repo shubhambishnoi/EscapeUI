@@ -1,0 +1,12 @@
+.toast{
+    gap:2rem;
+    width:20rem;
+    background-color: var(--blue);
+    font-size:1rem;
+    padding:1rem;
+}
+
+.c-btn{
+    cursor: pointer;
+    margin-left:auto;
+}
