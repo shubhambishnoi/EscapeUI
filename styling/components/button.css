@@ -11,7 +11,7 @@
 }
 
 .btn-pm{
-    background-color: var(--primary-color);
+    background-color: var(--blue);
 }
 
 .btn-dg{
@@ -27,12 +27,11 @@
 }
 
 .btn-link{
-    color:var(--primary-color);
     cursor: pointer;
 }
 
 .btn-link:hover{
-    background-color:var(--blue);
+    background-color:var(--primary-color);
 }
 
 .icon-btns{

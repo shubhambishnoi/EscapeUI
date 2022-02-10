@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
 :root{
-    --primary-color:#6610f2;
+    /* --primary-color:#00B0FF; */
+    --primary-color:var(--yellow);
     --secondary-color:#f8f9fa;
     --black:#070808;
-    --blue:#7eb3b9;
     --red:#da7a62;
     --green:#97dd6b;
+    --blue:#00B0FF;
     --yellow:#e6de50;
     --dark-red:#e73b10;
     --golden:#f1b83c;
     --dark-green:#224709;
+    --green:#5cc416;
     --gray:#52554dfa;
 }
 
@@ -28,6 +30,7 @@
     top:0;
     width:100%;
     z-index:1;
+    height:5rem;
 }
 
 .brand-link{
@@ -35,15 +38,7 @@
     padding:1rem;
 }
 
-.brand-logo{
-    background-color: var(--secondary-color) ;
-    border-radius: 25%;
-    padding:1rem;
-    transform: rotate(45deg);
-}
-
 .brand-name{
-    color: var(--secondary-color);
     font-size: 1.5rem;
 }
 
@@ -84,6 +79,11 @@
     padding:8px;
 }
 
+.component-link:hover,.install-link:hover{
+    background-color: var(--primary-color);
+    width:8rem;
+    font-weight: bold;
+}
 
 /********** main content*********/
 
@@ -102,6 +102,39 @@
 }
 
 .txt-primary{
-    color: var(--primary-color);
     font-weight: bold;
+}
+
+/************* home page container *************/
+
+.home-container{
+    margin:10rem ;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+}
+
+.home-big-heading{
+    font-size: 5rem;
+}
+
+.t-p{
+    color:var(--primary-color);
+}
+
+.home-doc-btn{
+    padding:1rem;
+    width: 10rem;
+    font-size: 2rem;
+    background-color: transparent;
+}
+
+.home-doc-btn:hover{
+    background-color: var(--primary-color);
+    cursor: pointer;
+    border:2px solid var(--primary-color);
+}
+
+.home-arrow{
+    font-size:2rem;
 }

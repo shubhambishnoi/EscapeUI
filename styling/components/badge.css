@@ -1,5 +1,5 @@
 .text-badge{
-    border:5px solid var(--primary-color);
+    border:5px solid var(--blue);
     width:max-content;
     position:relative;
 }

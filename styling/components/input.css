@@ -26,6 +26,6 @@
 .input-sc{
     font-size: 1rem;
     padding:1rem;
-    border:2px solid var(--dark-green);
+    border:2px solid var(--green);
     font-weight: bold;
 }
