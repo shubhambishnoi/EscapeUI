@@ -11,7 +11,7 @@ This a component library built in CSS to help you build webpages faster.
 @import url("https://escapeui.netlify.app/styling/components.css");
   </pre>
   
-  <h2>Components</h2>
+ <h2>Components</h2>
     
 <a href="https://escapeui.netlify.app/templates/components/avatar.html">Avatar</a>
     
@@ -24,8 +24,8 @@ Alerts are used to notify the user about some event. There are 4 text alerts ava
 
 <a href="https://escapeui.netlify.app/templates/components/badge.html">Badge</a>
 
-Badges are positioned on icons to display the count or status. There are two categories of badge 
-available Text with Badge and Icons with badge.
+Badges are positioned on icons to display the count or status. There are 2 categories of badge 
+available - text with badge and icons with badge.
 
 <a href="https://escapeui.netlify.app/templates/components/button.html">Button</a>
 
@@ -58,10 +58,22 @@ There is a slider available to include as volume controller or price range.
 
 Toasts are displayed at the bottom of the page to display error or success messages. 
  
+<h2>Images</h2>
+
+![Screenshot from 2022-02-15 00-55-00](https://user-images.githubusercontent.com/21965588/153932471-ddf1d5e9-0c23-4525-abb3-ac53f9d27564.png)
+
+![Screenshot from 2022-02-15 00-55-11](https://user-images.githubusercontent.com/21965588/153932640-38be1e87-1cc1-49e7-8e07-d49107d2f998.png)
+![Screenshot from 2022-02-15 00-55-22](https://user-images.githubusercontent.com/21965588/153932652-bcde06ef-c022-43c5-bf02-0ecca0e20285.png)
+
+![Screenshot from 2022-02-15 00-55-34](https://user-images.githubusercontent.com/21965588/153932730-1f5d20cc-cdbe-4d3c-b6c4-11cfc8ea481c.png)
 
 
+![Screenshot from 2022-02-15 00-55-45](https://user-images.githubusercontent.com/21965588/153932756-deea002e-7070-45cd-99d5-6b6439d69877.png)
+![Screenshot from 2022-02-15 00-55-56](https://user-images.githubusercontent.com/21965588/153932776-2d97952a-0d17-480f-87a4-a2ebc3947222.png)
 
 
-![Screenshot from 2022-02-10 23-45-22](https://user-images.githubusercontent.com/21965588/153479202-858877b5-b656-4441-90e5-6fa9f5036083.png)
-![Screenshot from 2022-02-11 00-39-30](https://user-images.githubusercontent.com/21965588/153479422-3b977124-b41f-4d30-923a-f5e3f2d24cbc.png)
-![Screenshot from 2022-02-12 20-22-05](https://user-images.githubusercontent.com/21965588/153716141-ac267eb1-a1e2-4960-bca2-dc101564545a.png)
+![Screenshot from 2022-02-15 00-56-04](https://user-images.githubusercontent.com/21965588/153932809-15834513-601b-4efb-914c-32a6fcedbd62.png)
+
+![Screenshot from 2022-02-15 00-56-11](https://user-images.githubusercontent.com/21965588/153932822-6b04764f-a548-48b4-a875-646147c831b0.png)
+![Screenshot from 2022-02-15 00-56-17](https://user-images.githubusercontent.com/21965588/153932857-841cb94f-2228-44b5-bea0-236d0cf4233b.png)
+![Screenshot from 2022-02-15 00-56-23](https://user-images.githubusercontent.com/21965588/153932864-1c6c5eb5-553a-4aa2-a022-cbea74d8c501.png)
