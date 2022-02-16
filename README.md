@@ -43,8 +43,8 @@ Images are used on every website. There are 2 types of images available - respon
 
 <a href="https://escapeui.netlify.app/templates/components/input.html">Input</a>
 
-Inputs are used to take user input like number or text. There are 2 types of input available - Standard inputs ( number, text, password) and
-validation input ( warning, danger, success ).
+Inputs are used to take user input like number or text. There are 4 types of input available - Standard inputs ( number, text, password),
+validation input ( warning, danger, success ), input checkboxes and input radio buttons.
 
 <a href="https://escapeui.netlify.app/templates/components/modal.html">Modal</a>
 
