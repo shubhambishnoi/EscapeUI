@@ -13,13 +13,13 @@
 
 .right-nav {
     flex-wrap: wrap;
-    min-width: 200px;
+    min-width: 20rem;
     text-overflow: ellipsis;
 }
 
 .r-list {
     list-style: none;
     display: inline-block;
-    min-width: 60px;
+    min-width: 6rem;
     cursor: pointer;
 }
