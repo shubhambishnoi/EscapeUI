@@ -1,0 +1,25 @@
+.content-nav {
+    background-color: var(--red);
+    align-items: center;
+    justify-content: space-between;
+    color: var(--black);
+    height: 5rem;
+}
+
+.store {
+    flex-grow: 1;
+    padding:8px;
+}
+
+.right-nav {
+    flex-wrap: wrap;
+    min-width: 20rem;
+    text-overflow: ellipsis;
+}
+
+.r-list {
+    list-style: none;
+    display: inline-block;
+    min-width: 6rem;
+    cursor: pointer;
+}
