@@ -1,7 +1,7 @@
 .toast{
     gap:2rem;
     width:20rem;
-    background-color: var(--primary-color);
+    background-color: var(--red);
     font-size:1rem;
     padding:1rem;
 }

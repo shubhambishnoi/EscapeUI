@@ -57,6 +57,10 @@ There is a slider available to include as volume controller or price range.
 <a href="https://escapeui.netlify.app/templates/components/toast.html">Toast</a>
 
 Toasts are displayed at the bottom of the page to display error or success messages. 
+
+<a href="https://escapeui.netlify.app/templates/components/navigation.html">Navigation</a>
+
+Navigations are used to allow users to move between different pages of the app. 
  
 <h2>Images</h2>
 
